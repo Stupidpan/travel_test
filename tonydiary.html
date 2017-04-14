@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>去旅游</title>
+	<style>
+		a{
+			text-decoration: none;
+			font-size: 20px;
+			padding: 5px;
+			color: gray;
+			font-weight: bold;
+		}
+		a:hover{
+			color: red;
+		}
+		nav{
+			margin-left: 20px;
+			margin-bottom: 50px;
+		}
+		.container{
+			text-align: center;
+			line-height: 40px;
+			font-family: "KaiTi";
+			font-size: 20px;
+
+		}
+		h1{
+			color: #FF9900;
+			font-family: "YouYuan";
+			margin-top: 50px;
+			margin-bottom: 60px;
+			font-size: 55px;
+		}
+		h2{
+			color: #c6963f;
+		}
+		q{
+			color: #FF3300;
+			font-family: "FZYaoti";
+
+		}
+		.container img{
+			border-radius: 20px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		.write{
+			font-family: "Microsoft YaHei";
+			margin-top: 50px;
+			margin-bottom: 150px;
+			line-height: 40px;
+			font-size: 20px;
+		}
+		button{
+			float: right;
+			height: 60px;
+			width:  60px;
+			background: transparent;
+			overflow: hidden;
+			padding: 0；
+			border: none;
+			outline: none；
+
+		}
+		.top a{
+			float: right;
+			height: 20px;
+			width:  80px;
+			font-size: 10px;
+			font-family: KaiTi_GB2312;
+
+		}
+		blockquote{
+			color: #ff9933;
+			font-family: FZShuTi;
+			font-size: 30px;
+		}
+		
+	</style>
+</head>
+<body bgcolor="CCFF99">
+<script>   
+   function m(){
+     var audio = document.getElementById('music'); 
+     if(audio.paused){                 
+         audio.play();//audio.play();// 播放  
+     }
+     else{
+          audio.pause();// 暂停
+     } 
+   }
+
+</script>
+	
+	<h1 align="middle">一起去旅行吧</h1>
+	<audio src="郭静 - 下一个天亮.mp3"  controls="controls" id="music"autoplay="autoplay" loop="loop" hidden=""></audio>  <!--  loop="loop"-->
+	<button id="m" onclick="m();"><img src="sign.gif"></button>
+	<br/>
+	<nav>
+		<a href="http://www.baidu.com" title="百度一下，你就知道" target="_blank">你造吗</a> |
+		<a href="http://www.taobao.com" title="淘宝网" target="_blank">说走就走</a> |
+		<a href="http://www.jianshu.com/" title="简书" target="_blank">放松一下吧</a> |
+		<a href="http://www.kugou.com/ song/#hash=682E9E845CED9438C5FE7F361F173361&album_id=569506" title="何以笙箫默插曲"  target="_blank">送你首歌吧</a>
+	</nav>
+	
+	<div class="container">
+	
+		<h2>生活不止眼前的苟且，还有<q>诗</q>和<q>远方</q>......</h2>
+		<img src="shallow.jpg"  width="60%" height="400" alt="金发美女背影面朝阳光">
+		<!-- 给 width 百分比形式值而 height是像素值，不管是放大还是缩小，浏览器都将保持图像的宽高比，图像也就不会发生扭曲 -->
+		<!-- <p >阳光轻抚我的头发</p> -->
+		
+		<p>
+			埋下一座城、关了所有灯.
+			<br/>
+		　　你的夕阳、我的容颜、谁的三分之一年.
+			<br/>
+			摇曳在笔尖的舞姿、是聚光灯下最浓烈的一抹艳红.
+			<br/>
+			我目送沿海的日落、紧抱一个醉生梦死的枕头、游不出回忆却学不会放手、怎么走.
+			<br/>
+			用一根火柴烧一座蜃楼、借这场大雨让自己逃走.
+		</p>
+		<h2 style="color: #539eb3">碧浪&amp海滩</h2>
+		
+		<img src="sea.jpg" width="60%" height="400" alt="碧浪&amp海滩">
+		<p>
+			你驾着航船，
+			<br/>
+			不断追寻着人生的终点，
+			<br/>
+			路边的风景那么美，
+			<br/>
+			却视而不见......
+		</p>
+		<h2 style="color: #36c536">ENJOY YOUR LIFE</h2>
+		<img src="tree.jpg" width="60%" height="400" alt="阳光下背靠大树阅读">
+		<p>
+			我想给你一座淳朴的楼房，
+			<br/>
+			白天坐在门槛上看清明投入花园的怀抱，
+			<br/>
+			夜晚推开窗子看星星和月亮掉进深沉的幽蓝，补给浅淡。
+			<br/>
+			那时候，蔷薇一定长满了枝桠，梨花压海棠遮掩庭院小道，做的梦里都是繁华的恬淡味道，过滤五彩斑斓的芬芳。
+		</p>
+
+		
+	</div>
+	<p class="write" contenteditable="">喜爱一切美好的事物：阳光，秋千，树叶，花瓣……来说点什么：<br></p>
+	<blockquote> <p>一辈子很长，要和有趣的人在一起过才不会没意思</p>一辈子也很短，所以每一天都需要活得痛快和尽兴</blockquote>
+	<!--blockquote在引用中会稍稍缩进，以起到引用的效果 -->
+
+	<p>你想和谁去？</p>
+	<ol>
+		<li>和家人？</li>
+		<li>和朋友？</li>
+		<li>还是和我？</li>
+	</ol>
+	<ul>
+		<li>和家人？</li>
+		<li>和朋友？</li>
+		<li>还是和我？</li>
+	</ul>
+	<a href="http://www.ctrip.com/" title="携程在手，说走就走！" target="_blank">携程旅游</a>
+	<div class="top">
+	<div>
+	<a href="#top">BACK TO TOP</a>
+	</div>
+</body>
+</html>
